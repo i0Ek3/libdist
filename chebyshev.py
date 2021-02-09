@@ -9,4 +9,4 @@ def chebyshev(x, y):
     dist = np.max(diff)
     return dist
 
-print(rd.random(10), rd.random(10))
+print(chebyshev(rd.random(10), rd.random(10)))

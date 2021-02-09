@@ -9,6 +9,11 @@
     - Manhattan distance
 - Chebyshev distance
 - Hamming distance
+- Mahalanobis distance[undo]
+- Bhattacharyya distance[undo]
+- Jaccard similarity coefficient[undo]
+- Pearson correlation coefficient[undo]
+- Cosine[undo]
 
 ## License
 
