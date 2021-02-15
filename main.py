@@ -6,6 +6,7 @@ from numpy import random as rd
 import chebyshev as ch
 import hamming as hm
 import minkowski as mk
+import mahalanobis as ma
 import utils as u
 
 def main():
@@ -16,7 +17,8 @@ def main():
     print(mk.L_p(rd.random(10), rd.random(10), 0))
     print(mk.L_p(rd.random(10), rd.random(10), 1))
     print(mk.L_p(rd.random(10), rd.random(10), 2))
-
+    
+    print(ma.mahalanobis(rd.random(10), rd.random(10)))
 
 if __name__ == '__main__':
     main()

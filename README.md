@@ -7,9 +7,9 @@
 - Minkowski(L_p) distance
     - Euclidean distance
     - Manhattan distance
-- Chebyshev distance
+    - Chebyshev distance
 - Hamming distance
-- Mahalanobis distance[undo]
+- Mahalanobis distance
 - Bhattacharyya distance[undo]
 - Jaccard similarity coefficient[undo]
 - Pearson correlation coefficient[undo]
