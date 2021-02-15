@@ -2,7 +2,6 @@
 # coding=utf-8
 
 import numpy as np
-from numpy import random as rd
 
 import utils as u
 
@@ -14,7 +13,3 @@ def L_p(xi, xj, p):
     if p != 0:
         dist = np.power(nsum, np.divide(1, p))
         return dist
-
-print(L_p(rd.random(10), rd.random(10), 0))
-print(L_p(rd.random(10), rd.random(10), 1))
-print(L_p(rd.random(10), rd.random(10), 2))
