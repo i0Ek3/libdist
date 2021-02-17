@@ -10,3 +10,5 @@ def p_msg(p):
         print("You'll going with Euclidean distance.")
     else:
         print("You'll going with Minkowski(L_p) distance.")
+
+# TODO: def show(x)

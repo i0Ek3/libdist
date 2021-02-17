@@ -11,9 +11,15 @@
 - Hamming distance
 - Mahalanobis distance
 - Bhattacharyya distance[undo]
-- Jaccard similarity coefficient[undo]
+- Jaccard distance/similarity coefficient
 - Pearson correlation coefficient[undo]
-- Cosine[undo]
+- Cosine
+- Information Entropy
+
+## Requirment
+
+- Python3
+- NumPy
 
 ## License
 
